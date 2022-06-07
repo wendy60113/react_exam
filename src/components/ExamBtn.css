@@ -1,0 +1,68 @@
+.ExamBtnBg {
+  position: relative;
+  margin-top: 5%;
+  width: 90%;
+  background: #f6f6f4;
+  border: 1px solid #e2e2e2;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 2% 5% 5% 5%;
+
+}
+
+.CategoryName {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #fbcc4d;
+}
+
+.ExamName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+}
+
+.bar {
+  margin-top: 3%;
+  width: 100%;
+  height: 8px;
+  background: #e2e2e2;
+  border-radius: 30px;
+}
+
+.barnum {
+  height: 100%;
+  border-radius: 30px;
+  background: #fbcc4d;
+}
+
+.notice {
+  position: absolute;
+  top: 18%;
+  right: 5%;
+  width: 25%;
+}
+
+.noticesvg {
+  position: relative;
+}
+
+.noticenum {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  font-size: 50%;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .noticenum {
+    font-size: 100%;
+  }
+}

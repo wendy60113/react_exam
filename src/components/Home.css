@@ -1,0 +1,61 @@
+.decbg {
+  background-color: #fbcc4d;
+  width: 80%;
+  padding-top: 80%;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  right: -40%;
+}
+
+.home_title {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.home_title_text {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.searchfiled {
+  margin-top: 5%;
+  width: 80%;
+}
+
+.searchfiled input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  font-size: 16px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 500 500' fill='rgba(226, 226, 226, 1)'><path d='M164.73,152,136.5,123.77a76.61,76.61,0,1,0-12.73,12.73L152,164.73A9,9,0,1,0,164.73,152ZM18,76.47A58.48,58.48,0,1,1,76.47,135,58.54,58.54,0,0,1,18,76.47Z'/></svg>");
+  background-position: 8% -110%;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 18%;
+  background-color: #f6f6f4;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  color: #333;
+}
+
+::placeholder {
+  color: #bbbbbb;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbbbbb;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bbbbbb;
+}
+
+.ExamBtnField {
+  width: 80%;
+  margin-top: 10%;
+}

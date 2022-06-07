@@ -1,0 +1,167 @@
+.ExamPageBg {
+  position: absolute;
+  background-color: #fbcc4d;
+  width: 100%;
+  height: 20vh;
+}
+
+.NavBar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+  width: 84%;
+  padding: 3% 8% 0 8%;
+}
+
+.navbaricon {
+  position: relative;
+  width: 10%;
+  cursor: pointer;
+  
+}
+
+.ExamField {
+  position: relative;
+  width: 90%;
+  padding: 0% 5% 0% 5%;
+  margin-top: 5%;
+}
+
+.topicbox {
+  position: relative;
+  width: 100%;
+  background: #f7f6f4;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 5% 5% 5% 5%;
+  margin-bottom: 10%;
+}
+
+.topicnum {
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.topiccontent {
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ansBtn {
+  background: #f7f6f4;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+
+  text-align: center;
+  padding: 5% 8% 5% 8%;
+  margin-top: 5%;
+
+  cursor: pointer;
+}
+
+.PrevBtn {
+  width: 10%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.NextBtn {
+  width: 20%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.PageBtnField {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 86%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0% 4% 0% 8%;
+}
+
+/*END*/
+.blackbg{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.endbox{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 40%;
+  background: #F6F6F4;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.endbox_title{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.menubtn{
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 48px;
+  width: 80%;
+  height: 48px;
+  color: #F6F6F4;
+  background: #FBCC4D;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.correcticon{
+  position: absolute;
+  right: 5%;
+  top: 13%;
+
+}
+
+#correct{
+  display: none;
+}
+
+#wrong{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .NavBar {
+    margin-top: 47px;
+  }
+
+}
